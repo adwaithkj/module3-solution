@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(35, 129, 74, 0.637);
+}
+
+h1 {
+  width: 100%;
+
+  padding-top: auto;
+}
+
+.contentheading {
+  background-color: aquamarine;
+  float: left;
+  position: relative;
+  left: 40%;
+  top: 1em;
+  width: 20%;
+  float: left;
+  text-align: center;
+  z-index: 5;
+
+  text-transform: capitalize;
+  font-family: montserrat;
+}
+.content {
+  margin-top: 10px;
+}
+.chicken,
+.ham,
+.steak {
+  margin-top: 10px;
+}
+
+.food h1 {
+  text-align: center;
+  font-weight: bolder;
+  padding: none;
+  margin-top: 0;
+  border: 2px solid #1ca455;
+}
+@media (max-width: 767.98px) {
+  .custom-flex {
+    width: 30%;
+    background-color: aqua;
+  }
+}
